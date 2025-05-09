@@ -1,0 +1,25 @@
+{
+  "name": "fast-mcp",
+  "version": "1.0.0",
+  "description": "MCP server using FastMCP framework",
+  "main": "dist/index.js",
+  "type": "module",  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "inspect": "mcp-inspector node dist/index.js"
+
+  },
+  "keywords": [
+    "mcp",
+    "fastmcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.11.0",
+    "@types/node": "^22.15.17",
+    "fastmcp": "^1.27.4",
+    "typescript": "^5.8.3"
+  }
+}
